@@ -1,6 +1,4 @@
-#Algorithmische Geometrie
-#Aufgabe 1
-#Nummer : 22328
+
 
 import numpy
 import scipy.spatial
@@ -31,7 +29,7 @@ def my_function():
 
 
 
-#Zusammenhang zwischen der Anzahl n der Eingabepunkte und der durchschnittlichen Anzahl e(n)
+#Zusammenhang n und e(n)
 def zusammenhang ():
     Quad = 30  #Laenge des Quadrats
     n = 10   #Menge von erzeugten Punkten
@@ -74,5 +72,4 @@ def zusammenhang ():
 
 
 my_function()
-print("Aufgabe 1 Teil c :")
 zusammenhang()
